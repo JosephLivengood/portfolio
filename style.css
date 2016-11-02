@@ -1,0 +1,166 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+#hidden {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  display: none;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+  opacity: .9;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-2 {
+  opacity: .8;
+}
+
+.bgimg-3 {
+  opacity: .6;
+}
+
+.img-circle1 {
+  border-radius: 50%;
+  max-width: 50%;
+  height: auto;
+  display: inline-block
+}
+
+.logo {
+    box-sizing: border-box;
+    width: 9em;
+    padding: 2em 5%;
+  }
+
+
+.align {
+  width: 80%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+/* First image (Logo. Full height) */
+
+.bgimg-1 {
+  background-image: url('http://vectorandpsd.com/vectorandpsd/background/blue-poly-background.jpg');
+  min-height: 100%;
+}
+
+
+/* Second image (Portfolio) */
+
+.bgimg-2 {
+  background-image: url("http://www.bevisible.co.za/new/wp-content/uploads/2013/06/-3D-Design-Widescreen-Wallpapers-no-028.jpg");
+  min-height: 400px;
+}
+
+
+/* Third image (Contact) */
+
+.bgimg-3 {
+  background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-120534.png"), url("https://dufs91kfhh0el.cloudfront.net/wp-content/uploads/2015/06/language-learning.jpg");
+  background-blend-mode: lighten;
+  min-height: 400px;
+}
+
+
+/* Turn off parallax scrolling for tablets and mobiles 
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    } 
+}*/
+
+.shadow {
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.52)
+}
+
+.wide {
+  letter-spacing: 20px;
+}
+
+.superwide {
+  letter-spacing: 35px;
+}
+
+.black {
+  color: #fff!important;
+  background-color: #000!important;
+}
+
+.padding-xlarge {
+  padding: 16px 42px 16px 62px;
+}
+
+.center {
+  text-align: center;
+}
+
+.xlarge {
+  font-size: 34px;
+  font-family: cursive;
+}
+
+.display-container {
+  position: relative;
+}
+
+.display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pad-t {
+  padding-top: 40px;
+}
+
+.pad {
+  padding-bottom: 60px
+}
+
+.smaller-image {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.text-bg {
+  font-family: "lato", Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+p {
+  font-family: Georgia, Serif;
+}
+
+.navbar-default .navbar-brand.liven {
+  font-family: Impact, Charcoal, sans-serif;
+  color: #3D4950;
+}
