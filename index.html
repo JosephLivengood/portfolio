@@ -1,11 +1,21 @@
-<html>  
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top shadow">
       <div class="container">
         <a class="navbar-brand liven" href="#">Livengood</a>
         <ul class="nav navbar-nav">
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#work">My Work</a></li>
+          <li><a href="#about">Skills</a></li>
+          <li><a href="#work">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="social-media hidden-sm">
@@ -16,116 +26,59 @@
         </div>
       </div>
     </nav>
-
+    
     <div class="bgimg-1 display-container">
       <div class="display-middle" style="white-space:nowrap;">
-        <span class="center padding-xlarge black xlarge" style="letter-spacing: 35px">Welcome</span>
-        <h1 id='hidden' class='center' style="color: rgba(20,20,20,.3)"><br><br>I've been expecting you...</h1>
+        <span class="center padding-xlarge black xlarge" style="letter-spacing: 25px">Joseph Livengood</span>
+        <h1 id='hidden' class='center' style="color: rgba(20,20,20,.3)"><br><br>Test</h1>
       </div>
     </div>
-
+    
     <!-- Container (About Section) -->
-
     <div class="container" id="about">
-
-      <h3 class="text-center" style="margin-top:60px">Joseph Livengood</h3>
-      <p class="text-center"><em>Learner</em></p>
-      <div class="col-md-4 col-lg-4 text-center pad">
-        <img src="https://s16.postimg.io/75q4v5no3/IMG_1450.jpg" class="img-circle1" alt="Photo of Me">
-
+      <h3 style="margin-top:60px; margin-bottom:60px; text-align:center; color: white; font-size: 32px; font-family: "Lato", sans-serif;">Skills</h3>
+      <i class="icon devicon-css3-plain-wordmark colored" style="font-size: 15rem"></i>
+      <i class="icon devicon-sass-original colored" style="font-size: 15rem"></i>
+      <i class="icon devicon-bootstrap-plain-wordmark colored" style="font-size: 15rem"></i>      
+      <br><br>
+      <i class="icon devicon-html5-plain-wordmark colored" style="font-size: 15rem"></i>
+      <i class="icon devicon-javascript-plain colored" style="font-size: 14rem"></i>
+      <i class="icon devicon-jquery-plain-wordmark colored" style="font-size: 14rem"></i>
+      <i class="icon devicon-react-original-wordmark colored" style="font-size: 14rem"></i>
+      <i class="icon devicon-d3js-plain colored" style="font-size: 14rem"></i>
+      <br><br>
+      <i class="icon devicon-github-plain-wordmark" style="font-size: 12rem"></i>
+      <i class="icon devicon-nodejs-plain-wordmark colored" style="font-size: 15rem"><i style="font-size: 2rem; position: relative; top: -80px;">* </i></i>
+      <i class="icon devicon-amazonwebservices-plain-wordmark colored" style="font-size: 15rem"></i>
+      <i class="icon devicon-ubuntu-plain-wordmark colored" style="font-size: 12rem"></i>
+      <i class="icon devicon-mongodb-plain-wordmark colored" style="font-size: 15rem"></i>
+      <i class="icon devicon-git-plain-wordmark colored" style="font-size: 12rem"></i>
+      <i class="icon devicon-mysql-plain-wordmark colored" style="font-size: 15rem"></i>
+      <br>
+      <p id="syn" class="icon">Self taught through practice, real world experience, and online curriculums(1200 hours!) I bring full stack skills to the table. My passion is fitting in right where I'm needed whether it be creating back-end controllers or react components or exclusively working with front-end d3.js/bootstrap to create optimal and unique user experiences!</p>
+      <p id="syn2" class="icon">All these icons around aren't just decor- They represent developed and practiced knowledge/experience I have and can utilize to it's full potential.</p>
+      <p id="node" class="icon">*with express/pug/react.js</p>
+      
       </div>
-      <div class="col-md-8 col-lg-8">
-        <p>Dedicated, detail focused, and technically skilled business and management systems professional with a versatile administrative support skill set developed through experience as a manager in various restaurants as well as national competitions showcasing my technical and math knowledge. I offer advanced computer and web skills across various programs and platforms as well as very being able to mange my time to work as efficiently as possible and exceeding all rigorous expectations of efficiency and productivity.</p>
-        <p class="pad">If I had to describe myself in 1 word, it'd be: learner. I have a passion for learning new things and continuing my education to perfect my craft in all that I do. I take initiative to constantly be developing personally and professionally. My favorite things to learn are languages. Both foreign, and programming. I love to be diverse and have knowledge of the full flow of a company to better serve in my own position. Examples of this diverse knowledge include multiple spoken languages and a get set of programming languages. Object orientated, web based, or procedural. I love it.</p>
-      </div>
-
-        <div class="align">
-        <div class="row">
-          <div class="col-xs-6 col-sm-3 col-lg-4">
-            <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img class="logo" src="http://res.cloudinary.com/dnkqgvjbd/image/upload/v1451679096/html_u7horu.png" alt="HTML5"></a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-lg-4">
-            <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><img class="logo" src="http://res.cloudinary.com/dnkqgvjbd/image/upload/v1451679096/css3_v0rzyx.png" alt="CSS3"></a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-lg-4">
-            <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"><img class="logo" src="http://res.cloudinary.com/dnkqgvjbd/image/upload/v1451679096/javascript_a2cxa4.png" alt="Javascript"></a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-6 col-sm-3 col-lg-4">
-            <a href="http://jquery.com/" target="_blank"><img class="logo" src="http://res.cloudinary.com/dnkqgvjbd/image/upload/v1451679096/jQurery_uy0yu0.gif" alt="jQuery"></a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-lg-4">
-            <a href="http://getbootstrap.com/" target="_blank"><img class="logo" src="http://res.cloudinary.com/dnkqgvjbd/image/upload/v1451679096/bootstrap_xfpqre.png" alt="Bootstrap"></a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-lg-4">
-            <a href="https://en.wikipedia.org/wiki/SQL" target="_blank"><img class="logo" src="http://res.cloudinary.com/dnkqgvjbd/image/upload/v1451679097/sql_mnbnrc.png" alt="SQL"></a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-
+      
     <!-- Second Parallax Image with Portfolio Text -->
     <div class="bgimg-2 display-container" id="work">
       <div class="display-middle">
-        <span class="text-center text-bg" style="letter-spacing: 20px">PORTFOLIO</span>
+        <span class="text-center text-bg wide black" style="letter-spacing: 20px">&nbspPROJECTS</span>
       </div>
     </div>
-
+    
     <!-- Container (Portfolio Section) -->
     <div class="container">
-      <h3 class="text-center">MY WORK</h3>
-      <p class="text-center"><em>Here are some of my latest works.<br> </em>
-
-
-        <div class="row text-center">
-          <div class="col-xs-6 col-sm-4">
-            <a href="http://s.codepen.io/Livengood/debug/RGWqYx">
-              <img class="smaller-image" src="https://s11.postimg.io/pk238gr4z/Screen_Shot_2016_09_13_at_12_50_37_AM.png">
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-4 ">
-            <a href="https://josephlivengood.github.io/d3/heatmap.html">
-              <img class="smaller-image" src="http://s14.postimg.org/dqc4hzsz5/Screen_Shot_2016_09_19_at_9_33_05_PM.png">
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-4 ">
-            <a href="https://josephlivengood.github.io/d3/">
-              <img class="smaller-image" src="http://s10.postimg.org/r0cqbh8op/scatter.png">
-            </a>
-          </div>
-
-        </div>
-        <div class="row text-center">
-          <div class="col-xs-6 col-sm-4">
-            <a href="http://s.codepen.io/Livengood/debug/KgVJZv">
-              <img class="smaller-image" src="https://s21.postimg.org/lqmgs6lev/Screen_Shot_2016_09_13_at_9_02_25_PM.png">
-            </a>
-          </div>
-
-          <div class="col-xs-6 col-sm-4 ">
-            <a href="http://codepen.io/Livengood/pen/kkPqzK">
-              <img class="smaller-image" src="https://s13.postimg.org/6r8cz21nb/Screen_Shot_2016_09_14_at_11_38_45_AM.png">
-            </a>
-          </div>
-
-          <div class="col-xs-6 col-sm-4 ">
-            <a href="https://josephlivengood.github.io/Life/">
-              <img class="smaller-image" src="https://s9.postimg.org/46gue2bnj/Screen_Shot_2016_09_16_at_9_51_20_AM.png">
-            </a>
-          </div>
-
-        </div>
+      <h3 style="margin-top:60px; margin-bottom:60px; text-align:center; color: white; font-size: 32px; font-family: "Lato", sans-serif;">MY WORK</h3>
+      
     </div>
-
+    <!-- Last Parallax -->
     <div class="bgimg-3 display-container">
       <div class="display-middle">
         <span class="text-center text-bg wide black" style="letter-spacing: 20px">&nbspCONTACT</span>
       </div>
     </div>
-
     <div class="container" id="contact">
       <p class="text-center h4 pad-t">Hire Me!</p>
       <div class="row">
@@ -138,7 +91,6 @@
                 <textarea class="form-control" rows="3"></textarea>
               </div>
             </div>
-
             <div class="form-group">
               <div class="col-sm-offset-2 col-sm-10">
                 <button type="submit" class="btn btn-primary disabled">SEND</button>
@@ -150,13 +102,6 @@
         </div>
       </div>
     </div>
-    </div>
-
-
-    <!-- Footer -->
-    <footer class="text-center">
-      <hr>
-      <p></p>
-    </footer>
+    <script type="text/javascript" src="/script.js"></script>
   </body>
 </html>
