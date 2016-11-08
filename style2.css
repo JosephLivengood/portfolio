@@ -1,7 +1,6 @@
 body,
 h1,
 h2,
-h4,
 h5,
 h6 {
   font-family: "Lato", sans-serif;
@@ -186,8 +185,19 @@ html {
   position: relative;
   top: -480px;
 }
+
 #node {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   color: #ccc;
+}
+
+h4 {
+  color: #cc6699;
+  font-family: "Lato", sans-serif!important;
+  font-size: 42px!important;
+}
+
+.projectdesc p {
+  color: blue;
 }

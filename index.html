@@ -2,11 +2,13 @@
 <html>
   <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unslider/2.0.3/css/unslider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unslider/2.0.3/css/unslider-dots.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style2.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   </head>
   <body>
@@ -44,8 +46,8 @@
       <i class="icon devicon-html5-plain-wordmark colored" style="font-size: 15rem"></i>
       <i class="icon devicon-javascript-plain colored" style="font-size: 14rem"></i>
       <i class="icon devicon-jquery-plain-wordmark colored" style="font-size: 14rem"></i>
-      <i class="icon devicon-react-original-wordmark colored" style="font-size: 14rem"></i>
       <i class="icon devicon-d3js-plain colored" style="font-size: 14rem"></i>
+      <i class="icon devicon-react-original-wordmark colored" style="font-size: 14rem"></i>
       <br><br>
       <i class="icon devicon-github-plain-wordmark" style="font-size: 12rem"></i>
       <i class="icon devicon-nodejs-plain-wordmark colored" style="font-size: 15rem"><i style="font-size: 2rem; position: relative; top: -80px;">* </i></i>
@@ -55,8 +57,8 @@
       <i class="icon devicon-git-plain-wordmark colored" style="font-size: 12rem"></i>
       <i class="icon devicon-mysql-plain-wordmark colored" style="font-size: 15rem"></i>
       <br>
-      <p id="syn" class="icon">Self taught through practice, real world experience, and online curriculums(1200 hours!) I bring full stack skills to the table. My passion is fitting in right where I'm needed whether it be creating back-end controllers or react components or exclusively working with front-end d3.js/bootstrap to create optimal and unique user experiences!</p>
-      <p id="syn2" class="icon">All these icons around aren't just decor- They represent developed and practiced knowledge/experience I have and can utilize to it's full potential.</p>
+      <p id="syn" class="icon">Self taught through practice, real world experience, and online curriculums(1200 hours on <a href="https://www.freecodecamp.com/">FreeCodeCamp</a>!) I bring full stack skills to the table. My passion is fitting in right where I'm needed whether it be creating back-end controllers or react components or exclusively working with front-end d3.js/bootstrap to create optimal and unique user experiences!</p>
+      <p id="syn2" class="icon">All these icons around aren't just decor- They represent developed and practiced knowledge/experience I have and can utilize to their full potential.</p>
       <p id="node" class="icon">*with express/pug/react.js</p>
       
       </div>
@@ -72,7 +74,56 @@
     <div class="container">
       <h3 style="margin-top:60px; margin-bottom:60px; text-align:center; color: white; font-size: 32px; font-family: "Lato", sans-serif;">MY WORK</h3>
       
+      <!-- Container for some way to show off projects with skills used/explaination/link -->
+      <div class="container">
+        <div class="my-slider">
+        	<ul>
+        		<li>
+        		  <div class="well">
+        		    <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-7">
+                      <h4 class="text-center">Poller</h4>
+                    </div>
+                    <div class="col-md-5 text-center">
+                      <i class="icon devicon-nodejs-plain-wordmark colored" style="font-size: 7rem"></i>
+                      <i class="icon devicon-amazonwebservices-plain-wordmark colored" style="font-size: 7rem"></i>
+                      <i class="icon devicon-mongodb-plain-wordmark colored" style="font-size: 7rem"></i>
+                      <i class="icon devicon-sass-original colored" style="font-size: 7rem"></i>
+                      <i class="icon devicon-bootstrap-plain-wordmark colored" style="font-size: 7rem"></i>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-7">
+                      <!-- ROTATING IMAGES OF PROJECT -->
+                      <img class="img-responsive" src="http://placehold.it/1400x1000">
+                    </div>
+                    <div class="col-md-5 text-center projectdesc">
+                      <p>Poller is a polling website where users can create polls to be voted on by other users or guests!</p>
+                      <p>The homepage's <i>poll tiles</i> constantly change based on trending/popular polls and appear larger when they are even more popular than the rest of the trending tiles!</p>
+                      <p>This website uses Masonry (a grid system), Bootstrap, Sass, and Pug <s>Jade</s> on the front-end.</p>
+                      <p>On the back, I used Node/Express and a NoSQL MongoDB to do all data handling server-sided before rendering the Pug to the client to create a responsive ux.</p>
+                      <p>Biggest lessons learned?... On larger complex projects where you may have multiple controllers handling different processes on the back, call backs are an extremely powerful tool to maintain async! Also, start every project with a long term organized plan and create controllers/handlers <strong>first</strong>- dont do logic/rendering/database connections in your routing file! Its just messy and confusing to others!</p>
+                    </div>
+                  </div>
+                  <div class="row projectdesc">
+                    <div class="col-md-4 text-center">
+                      <p><i class="fa fa-github-square fa-3x" aria-hidden="true"></i> See the code!</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                      <p><i class="fa fa-external-link-square fa-3x" aria-hidden="true"></i> See the live demo!</p>
+                    </div>
+                  </div>
+                </div>
+        		  </div>
+        		</li>
+        		<li>Another slide</li>
+        		<li>My last slide</li>
+        	</ul>
+        </div>
+      </div>
     </div>
+    
     <!-- Last Parallax -->
     <div class="bgimg-3 display-container">
       <div class="display-middle">
@@ -102,6 +153,16 @@
         </div>
       </div>
     </div>
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/unslider/2.0.3/js/unslider-min.js"></script>
+    <script>
+      jQuery(document).ready(function($) {
+        $('.my-slider').unslider({
+          infinite: true,
+          arrows: true
+        });
+      });
+	  </script>
   </body>
 </html>
