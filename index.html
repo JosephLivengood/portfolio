@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style2.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-87121822-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top shadow">
@@ -74,16 +82,16 @@
     <div class="container">
       <h3 style="margin-top:60px; margin-bottom:60px; text-align:center; color: white; font-size: 32px; font-family: "Lato", sans-serif;">MY WORK</h3>
       
-      <!-- Container for some way to show off projects with skills used/explaination/link -->
+      <!-- Container to show off projects with skills used/explaination/link with UNSLIDER-->
       <div class="container">
         <div class="my-slider">
         	<ul>
         		<li>
-        		  <div class="well">
+        		  <div class="well" style="background-color: #bbb;">
         		    <div class="container-fluid">
                   <div class="row">
                     <div class="col-md-7">
-                      <h4 class="text-center">Poller</h4>
+                      <h4 class="text-center"><strong>Poller</strong><small> A site to create/vote/view polls!</small></h4>
                     </div>
                     <div class="col-md-5 text-center">
                       <i class="icon devicon-nodejs-plain-wordmark colored" style="font-size: 7rem"></i>
@@ -98,25 +106,43 @@
                       <!-- ROTATING IMAGES OF PROJECT -->
                       <img class="img-responsive" src="http://placehold.it/1400x1000">
                     </div>
-                    <div class="col-md-5 text-center projectdesc">
+                    <div class="col-md-5 container-fluid text-center desc">
+                      <br>
                       <p>Poller is a polling website where users can create polls to be voted on by other users or guests!</p>
-                      <p>The homepage's <i>poll tiles</i> constantly change based on trending/popular polls and appear larger when they are even more popular than the rest of the trending tiles!</p>
-                      <p>This website uses Masonry (a grid system), Bootstrap, Sass, and Pug <s>Jade</s> on the front-end.</p>
-                      <p>On the back, I used Node/Express and a NoSQL MongoDB to do all data handling server-sided before rendering the Pug to the client to create a responsive ux.</p>
-                      <p>Biggest lessons learned?... On larger complex projects where you may have multiple controllers handling different processes on the back, call backs are an extremely powerful tool to maintain async! Also, start every project with a long term organized plan and create controllers/handlers <strong>first</strong>- dont do logic/rendering/database connections in your routing file! Its just messy and confusing to others!</p>
+                      <p>The homepage's <i>poll tiles</i> constantly change based on trending/popular polls and appear larger when they are even more popular than the rest of the trending tiles! 'Sponsered' polls can be set to be always in a certain positon/size/link out.</p>
+                      <p>Future improvements include implimenting <b>d3.js</b> to show more statistics/votes over time on results page and poll tiles! Back-end already supports it, just need styled!</p>
+                      <hr>
+                      <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                          <p>Front-end includes Bootstrap 3, Sass, Masonry, and rendered <s>Jade</s> Pug.</p>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                          <p>On the back, Node.js/Express.js/Express-session using a NoSQL MongoDB/Passwordless/EmailJS.</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <hr>
+                        <div class="col-xs-3">
+                          <i class="fa fa-graduation-cap fa-3x" aria-hidden="false"></i>
+                          <p>Lesson Learned?</p>
+                        </div>
+                        <div class="col-xs-9 text-left">
+                          <p class="learned">Callbacks are extremely powerful and are an amazing tool to create an efficient async back-end (as well as being completely nessesary to accurately work with data passing it along to different controllers). ALSO HAVE A PLAN! A plan for databases, collections, handlers, server/clientside processing, EVERYTHING to be efficient and clean!</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="row projectdesc">
-                    <div class="col-md-4 text-center">
-                      <p><i class="fa fa-github-square fa-3x" aria-hidden="true"></i> See the code!</p>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-6 text-center">
+                      <a href="https://github.com/JosephLivengood/poller"><p><i class="fa fa-github-square fa-3x" aria-hidden="true"></i> See the code!</p></a>
                     </div>
-                    <div class="col-md-3 text-center">
-                      <p><i class="fa fa-external-link-square fa-3x" aria-hidden="true"></i> See the live demo!</p>
+                    <div class="col-md-3 col-sm-6 text-center">
+                      <a href="https://livepoller.herokuapp.com/" alt="Please allow up to 15 seconds for dormant server to wake and load!"><p><i class="fa fa-external-link-square fa-3x" aria-hidden="true"></i> See the live demo!</p></a>
                     </div>
                   </div>
                 </div>
         		  </div>
-        		</li>
+        		</li> <!--Poller-->
         		<li>Another slide</li>
         		<li>My last slide</li>
         	</ul>

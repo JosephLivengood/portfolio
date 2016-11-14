@@ -195,9 +195,20 @@ html {
 h4 {
   color: #cc6699;
   font-family: "Lato", sans-serif!important;
-  font-size: 42px!important;
+  font-size: 42px;
 }
 
-.projectdesc p {
-  color: blue;
+.desc {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+}
+.desc p {
+  margin:0px;
+}
+
+.learned {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
 }
